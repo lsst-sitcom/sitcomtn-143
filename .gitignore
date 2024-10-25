@@ -3,4 +3,4 @@ _build/
 .tox/
 venv/
 .venv/
-.ipynb_checkpoints/**
+.ipynb_checkpoints

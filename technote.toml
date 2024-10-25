@@ -38,7 +38,3 @@ name = {given = "Bruno C.", family = "Quint"}
 name = "Vera C. Rubin Observatory Project Office"
 internal_id = "RubinObs"
 address = "950 N. Cherry Ave., Tucson, AZ 85719, USA"
-[[technote.authors.affiliations]]
-name = "Vera C. Rubin Observatory"
-internal_id = "RubinObsC"
-address = "Avenida Juan Cisternas #1500, La Serena, Chile"

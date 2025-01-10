@@ -38,3 +38,10 @@ name = {given = "Bruno C.", family = "Quint"}
 name = "Vera C. Rubin Observatory Project Office"
 internal_id = "RubinObs"
 address = "950 N. Cherry Ave., Tucson, AZ 85719, USA"
+
+[[technote.authors]]
+internal_id = "kakoon"
+orcid = "https://orcid.org/0000-0002-7295-2743"
+name = {given = "HyeYun", family = "Park"}
+[[technote.authors.affiliations]]
+name = "Duke University"

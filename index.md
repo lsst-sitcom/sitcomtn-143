@@ -9,6 +9,8 @@ This technote describes the analysis on the brake test. The brake test intention
 ### Using E-stop 
 1. Az: 2023-11-23T00:40:35
 2. El: 2023-11-23T01:37:20
+
+---
 BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 
 ### Using GIS door interlock

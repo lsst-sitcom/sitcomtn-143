@@ -10,6 +10,7 @@ This technote describes the analysis on the brake test. The brake test intention
 1. Az: 2023-11-23T00:40:35
 2. El: 2023-11-23T01:37:20
 
+On 2023.11.23, TMA was tested with 70% speed.
 ---
 BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 
@@ -72,7 +73,7 @@ BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 :target: ../_static/2-1.png
 :::
 
-* Stopping distance = -0.00057 deg
+* Stopping distance = 0.00057 deg
 
 ### 2-2. ComCam onsky: 1% speed El Brake Test
 * time_start = "2024-11-06T09:34:43"
@@ -84,7 +85,7 @@ BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 :target: ../_static/2-2.png
 :::
 
-* Stopping distance = -0.12 deg
+* Stopping distance = 0.12 deg
 
 ### 2-3. ComCam onsky: 2% speed Az Brake Test
 * time_start = "2024-11-08T04:42:00"
@@ -96,7 +97,7 @@ BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 :target: ../_static/2-3.png
 :::
 
-* Stopping distance = -0.049 deg
+* Stopping distance = 0.049 deg
 
 ### 2-4. ComCam onsky: 2% speed El Brake Test
 * time_start = "2024-11-08T05:27:31"
@@ -110,7 +111,7 @@ BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 
 * Stopping distance = 0.073 deg
 
-###  2-5. ComCam onsky: 5% speed Az Brake Test¶
+###  2-5. ComCam onsky: 5% speed Az Brake Test
 time_start = "2024-11-09T09:45:12"
 time_ends = "2024-11-09T09:45:14"
 Event happened at: 2024-11-09T09:45:12.544466
@@ -168,7 +169,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 :target: ../_static/2-9.png
 :::
 
-* Stopping distance = -1.6 deg
+* Stopping distance = 1.6 deg
 
 ### 2-10. ComCam onsky: 20% speed El Brake Test
 * time_start = "2024-11-29T20:09:09"
@@ -180,7 +181,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 :target: ../_static/2-10.png
 :::
 
-* Stopping distance = -1.91 deg
+* Stopping distance = 1.91 deg
 
 ### 2-11. ComCam onsky: 40% speed Az Brake Test
 * time_start = "2024-12-08T09:06:11"
@@ -194,7 +195,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 
 * Stopping distance = 4.88 deg
 
-### 2-12. ComCam onsky: 40% speed El Brake Test¶
+### 2-12. ComCam onsky: 40% speed El Brake Test
 * time_start = "2024-11-29T20:09:09"
 * time_ends = "2024-11-29T20:09:13"
 * Event happened at: 2024-12-08T09:02:22.303270
@@ -205,3 +206,16 @@ Event happened at: 2024-11-09T09:45:12.544466
 :::
 
 * Stopping distance = 5.95 deg
+
+### Stopping distance vs speed set
+#### Azimuth
+:::{figure} ./_static/az_speed_sd.png
+:name: Az stopping distance vs speed set
+:target: ../_static/az_speed_sd.png
+:::
+
+#### Elevation
+:::{figure} ./_static/el_speed_sd.png
+:name: El stopping distance vs speed set
+:target: ../_static/el_speed_sd.png
+:::

@@ -7,30 +7,29 @@ This technote describes the analysis on the brake test. The brake test intention
 
 ## Dates and time of the brake test
 ### Using E-stop 
-1. Az: 2023-11-23T00:40:35
+On 2023.11.23, TMA was tested with 70% speed. (Az: 7 deg/s, El: 3.5 deg/s)
+1. Az: 2023-11-23T00:40:35 
 2. El: 2023-11-23T01:37:20
-
-On 2023.11.23, TMA was tested with 70% speed.
 ---
 BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 
 ### Using GIS door interlock
-1. 1% speed set
+1. 1% speed set (0.1 deg/s)
     * Az: 2024-11-06 09:20
     * El: 2024-11-06 09:32
-2. 2% speed set
+2. 2% speed set (0.2 deg/s)
     * Az: 2024-11-08T04:41:43.430Z
     * El: 2024-11-08T05:28:23Z
-3. 5% speed set
+3. 5% speed set (0.5 deg/s)
     * Az: 2024-11-09 09:44 to 09:46 
     * El: 2024-11-09 10:20 to 10:21
-4. 10% speed set
+4. 10% speed set (1 deg/s)
     * Az: 2024-11-21 10:40 - 10:42
     * El: 2024-11-21 11:06 - 11:07
-5. 20% speed set
+5. 20% speed set (2 deg/s)
     * Az: 2024-11-29 20:04
     * El: 2024-11-29 20:08
-6. 40% speed set
+6. 40% speed set (4 deg/s)
     * Az: 2024-12-08 09:06:11
     * El: 2024-12-08 09:02:22
 
@@ -64,16 +63,16 @@ BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 * Stopping distance = 4.46 deg
 
 ### 2-1. ComCam onsky: 1% speed Az Brake Test
-* time_start = "2024-11-06T09:21:31"
+* time_start = "2024-11-06T09:21:30"
 * time_ends = "2024-11-06T09:21:35"
-* Event happened at: 2024-11-06T09:21:31.580298
+* Event happened at: 2024-11-06T09:21:30.071630
 
 :::{figure} ./_static/2-1.png
 :name: Az brake test 1% speed
 :target: ../_static/2-1.png
 :::
 
-* Stopping distance = 0.00057 deg
+* Stopping distance = 0.091 deg
 
 ### 2-2. ComCam onsky: 1% speed El Brake Test
 * time_start = "2024-11-06T09:34:43"
@@ -112,9 +111,9 @@ BLOCK-142 : https://jira.lsstcorp.org/browse/BLOCK-142
 * Stopping distance = 0.073 deg
 
 ###  2-5. ComCam onsky: 5% speed Az Brake Test
-time_start = "2024-11-09T09:45:12"
-time_ends = "2024-11-09T09:45:14"
-Event happened at: 2024-11-09T09:45:12.544466
+* time_start = "2024-11-09T09:45:11"
+* time_ends = "2024-11-09T09:45:16"
+* Event happened at: 2024-11-09T09:45:12.544466
 
 :::{figure} ./_static/2-5.png
 :name: Az brake test 5% speed
@@ -136,8 +135,8 @@ Event happened at: 2024-11-09T09:45:12.544466
 * Stopping distance = 0.22 deg
 
 ### 2-7. ComCam onsky: 10% speed Az Brake Test
-* time_start = "2024-11-21T10:41:25"
-* time_ends = "2024-11-21T10:41:35"
+* time_start = "2024-11-21T10:41:27"
+* time_ends = "2024-11-21T10:41:32"
 * Event happened at: 2024-11-21T10:41:28.040349
 
 :::{figure} ./_static/2-7.png
@@ -148,8 +147,8 @@ Event happened at: 2024-11-09T09:45:12.544466
 * Stopping distance = 0.51 deg
 
 ### 2-8. ComCam onsky: 10% speed El Brake Test
-* time_start = "2024-11-21T11:06:25"
-* time_ends = "2024-11-21T11:06:35"
+* time_start = "2024-11-21T11:06:27"
+* time_ends = "2024-11-21T11:06:33"
 * Event happened at: 2024-11-21T11:06:28.477046
 
 :::{figure} ./_static/2-8.png
@@ -161,7 +160,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 
 ### 2-9. ComCam onsky: 20% speed Az Brake Test
 * time_start = "2024-11-29T20:04:25"
-* time_ends = "2024-11-29T20:04:28"
+* time_ends = "2024-11-29T20:04:32"
 * Event happened at: 2024-11-29T20:04:26.418824
 
 :::{figure} ./_static/2-9.png
@@ -173,7 +172,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 
 ### 2-10. ComCam onsky: 20% speed El Brake Test
 * time_start = "2024-11-29T20:09:09"
-* time_ends = "2024-11-29T20:09:13"
+* time_ends = "2024-11-29T20:09:16"
 * Event happened at: 2024-11-29T20:09:09.582050
 
 :::{figure} ./_static/2-10.png
@@ -185,7 +184,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 
 ### 2-11. ComCam onsky: 40% speed Az Brake Test
 * time_start = "2024-12-08T09:06:11"
-* time_ends = "2024-12-08T09:06:15"
+* time_ends = "2024-12-08T09:06:17"
 * Event happened at: 2024-12-08T09:06:11.372613
 
 :::{figure} ./_static/2-11.png
@@ -197,7 +196,7 @@ Event happened at: 2024-11-09T09:45:12.544466
 
 ### 2-12. ComCam onsky: 40% speed El Brake Test
 * time_start = "2024-11-29T20:09:09"
-* time_ends = "2024-11-29T20:09:13"
+* time_ends = "2024-11-29T20:09:15"
 * Event happened at: 2024-12-08T09:02:22.303270
 
 :::{figure} ./_static/2-12.png

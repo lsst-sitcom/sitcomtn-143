@@ -1,1 +1,3 @@
-documenteer[technote]>=1.0.0a13
+documenteer[technote]>=1.0.0
+pandoc
+sphinx<8.0
